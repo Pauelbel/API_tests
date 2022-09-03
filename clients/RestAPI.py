@@ -119,7 +119,7 @@ class Rest_API_Logger():
     # True or False - Для записи лога в файл
     LOG_TO_FILE = True 
 
-    FILE_NAME = f"logs/log_" + str(datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")) + ".log"
+    FILE_NAME = f"logs/rest_" + str(datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")) + ".log"
 
     if LOG_TO_FILE == True:
         @classmethod

@@ -8,4 +8,5 @@ SOAP_API = {
     "port_name": "",
     "wsse_login": "",
     "wsse_password": "",
+    "port": ""
 }

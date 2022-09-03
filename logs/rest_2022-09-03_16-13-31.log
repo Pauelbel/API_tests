@@ -1,7 +1,7 @@
 
 ----------
-Test: tests/rest_api/test_example_1.py::test_GetAPList[api/users?page=2] (call)
-Time: 2022-09-03 15:05:03.550920
+Test: tests/rest_api/test_example_rest.py::test_example_1[api/users?page=2] (call)
+Time: 2022-09-03 16:13:31.334580
 Request method: GET
 Request URL: https://reqres.in/api/users?page=2
 Request Headers: None
@@ -12,7 +12,7 @@ Request json: None
 Response code: 200
 Response headers:
  {
-    "Date": "Sat, 03 Sep 2022 12:05:03 GMT",
+    "Date": "Sat, 03 Sep 2022 13:13:31 GMT",
     "Content-Type": "application/json; charset=utf-8",
     "Transfer-Encoding": "chunked",
     "Connection": "keep-alive",
@@ -22,12 +22,12 @@ Response headers:
     "Via": "1.1 vegur",
     "Cache-Control": "max-age=14400",
     "CF-Cache-Status": "HIT",
-    "Age": "1218",
-    "Report-To": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=sr4WJA8ezcmR8eBHtc%2BVgbtUC1hABxQ4VOQi9j6M5SxanOh5VPBrhqX5wHhToLGa9mQ0GA9WQivwXBn6zkSizAi844b5Aeqf9YHqFo20ERf1LwhENRsWda6g2Q%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+    "Age": "5326",
+    "Report-To": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=C%2BxttHmremQMGRN4Wf0goi%2BkoaKgBaIMJSMloY00E3WlTyMGQIrAe30Png2vsBFRc%2FIshX5%2F8cUnJpcs7fGxoX%2B%2BTHezE5QIkuhF6PODcICnHGfW0NZRX%2F739w%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
     "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
     "Vary": "Accept-Encoding",
     "Server": "cloudflare",
-    "CF-RAY": "744e59fa4ffa9d51-DME",
+    "CF-RAY": "744ebe44198e1607-DME",
     "Content-Encoding": "gzip"
 }
 Response cookies:
@@ -91,8 +91,8 @@ Response text:
 ----------
 
 ----------
-Test: tests/rest_api/test_example_1.py::test_GetAPList[api/users?page=3] (call)
-Time: 2022-09-03 15:05:03.778156
+Test: tests/rest_api/test_example_rest.py::test_example_1[api/users?page=3] (call)
+Time: 2022-09-03 16:13:31.582848
 Request method: GET
 Request URL: https://reqres.in/api/users?page=3
 Request Headers: None
@@ -103,7 +103,7 @@ Request json: None
 Response code: 200
 Response headers:
  {
-    "Date": "Sat, 03 Sep 2022 12:05:04 GMT",
+    "Date": "Sat, 03 Sep 2022 13:13:31 GMT",
     "Content-Type": "application/json; charset=utf-8",
     "Transfer-Encoding": "chunked",
     "Connection": "keep-alive",
@@ -113,12 +113,12 @@ Response headers:
     "Via": "1.1 vegur",
     "Cache-Control": "max-age=14400",
     "CF-Cache-Status": "HIT",
-    "Age": "33",
-    "Report-To": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=IFHrseV53gfECzT%2BVSg1EOhtIjJQG3RysCZLdfxz5rdnbkq8Udi1BQOxuHbMEu6Jaaa9HrGFeQoCKfr06gY1i9wyif7rrIerKrqi6YGL0x6Tkwn5F%2F8D7aZz9w%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+    "Age": "4140",
+    "Report-To": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=BOaTUk03%2BKKUkywdGafwB86vWKdNJYrMc0%2BizXFPg%2Bu1OkJdAoKhdCyB9x3oZw5i6MSXG9N6hFb4%2BI2TcHMmDIP7BsqS9PDGHzD2SHTq6QwRlNejsLIiGMMP0Q%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
     "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
     "Vary": "Accept-Encoding",
     "Server": "cloudflare",
-    "CF-RAY": "744e59fbfd0a0c54-DME",
+    "CF-RAY": "744ebe459dcf0c48-DME",
     "Content-Encoding": "gzip"
 }
 Response cookies:
@@ -139,8 +139,8 @@ Response text:
 ----------
 
 ----------
-Test: tests/rest_api/test_example_1.py::test_GetAPList[api/users?page=4] (call)
-Time: 2022-09-03 15:05:04.045131
+Test: tests/rest_api/test_example_rest.py::test_example_1[api/users?page=4] (call)
+Time: 2022-09-03 16:13:31.830377
 Request method: GET
 Request URL: https://reqres.in/api/users?page=4
 Request Headers: None
@@ -151,7 +151,7 @@ Request json: None
 Response code: 200
 Response headers:
  {
-    "Date": "Sat, 03 Sep 2022 12:05:04 GMT",
+    "Date": "Sat, 03 Sep 2022 13:13:32 GMT",
     "Content-Type": "application/json; charset=utf-8",
     "Transfer-Encoding": "chunked",
     "Connection": "keep-alive",
@@ -161,12 +161,12 @@ Response headers:
     "Via": "1.1 vegur",
     "Cache-Control": "max-age=14400",
     "CF-Cache-Status": "HIT",
-    "Age": "32",
-    "Report-To": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=q5KdOBqzrZkVfu9eAara6PsOR7U7gCBgaNB2BrE3xq8BX2b58%2F0LYfG47ynWEFF3mRv1VWr1Ac61kuhTFRxb5vYaeQoScNWnW6B%2BIXFOf0fX4WCq4MzepImXUQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+    "Age": "4140",
+    "Report-To": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=U%2BRcykJ4EVXcZkVr37IHDlTNvGwrJbSCqP48jQ%2BqlbDegQKBJAnbciBD633IQ7jSsYXYPG52OVc6qWmxUnbK2lor1DlGDU1umciANT%2FJEmLtXlRMYRZFBaWdoA%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
     "NEL": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
     "Vary": "Accept-Encoding",
     "Server": "cloudflare",
-    "CF-RAY": "744e59fd9faa15fe-DME",
+    "CF-RAY": "744ebe47cf5c16c7-DME",
     "Content-Encoding": "gzip"
 }
 Response cookies:

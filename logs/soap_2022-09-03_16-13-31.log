@@ -1,0 +1,38 @@
+
+Test: tests/soap_api/test_example_soap.py::test_soap (call)
+------------------- Request --------------------
+Operation: {'address': 'https://www.dataaccess.com/webservicesserver/numberconversion.wso'}
+Options: NumberToDollars(dNum: xsd:decimal) -> NumberToDollarsResult: xsd:string
+Headers: {
+    "SOAPAction": "\"\"",
+    "Content-Type": "text/xml; charset=utf-8"
+}
+--------------------- Body ---------------------
+Body: <soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap-env:Body>
+    <ns0:NumberToDollars xmlns:ns0="http://www.dataaccess.com/webservicesserver/">
+      <ns0:dNum>5</ns0:dNum>
+    </ns0:NumberToDollars>
+  </soap-env:Body>
+</soap-env:Envelope>
+
+------------------- Response --------------------
+Headers: {
+    "Cache-Control": "private, max-age=0",
+    "Content-Type": "text/xml; charset=utf-8",
+    "Content-Encoding": "gzip",
+    "Vary": "Accept-Encoding",
+    "Server": "Server",
+    "Web-Service": "DataFlex 19.1",
+    "Date": "Sat, 03 Sep 2022 13:13:32 GMT",
+    "Content-Length": "310"
+}
+--------------------- Data ----------------------
+Data: <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <m:NumberToDollarsResponse xmlns:m="http://www.dataaccess.com/webservicesserver/">
+      <m:NumberToDollarsResult>five dollars</m:NumberToDollarsResult>
+    </m:NumberToDollarsResponse>
+  </soap:Body>
+</soap:Envelope>
+
